@@ -25,12 +25,12 @@
 
 ### 使用方法
 ```
-	//隐藏分割线
-	[self.navigationController.navigationBar bottomLineHidden:YES];
+//隐藏分割线
+[self.navigationController.navigationBar bottomLineHidden:YES];
 	
-	//去除半透明透明层
-    [self.navigationController.navigationBar effectViewCustom:effectViewCustomClear];
+//去除半透明透明层
+[self.navigationController.navigationBar effectViewCustom:effectViewCustomClear];
     
-    //设置带有透明效果的背景色
-    [self.navigationController.navigationBar NavBackgroundColor:[[UIColor whiteColor] colorWithAlphaComponent:0]];
+//设置带有透明效果的背景色
+[self.navigationController.navigationBar NavBackgroundColor:[[UIColor whiteColor] colorWithAlphaComponent:0]];
 ```
